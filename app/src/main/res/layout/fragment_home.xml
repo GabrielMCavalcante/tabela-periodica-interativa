@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <data>
+    <variable
+      name="homeFragment"
+      type="com.kotlinstudies.tabelaperiodicainterativa.ui.fragments.HomeFragment" />
+  </data>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/cl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/iv_info"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:src="@drawable/ic_info"
+      android:layout_gravity="end"
+      android:onClick="@{() -> homeFragment.onAjudaClick()}"
+      app:tint="@color/primaryTextColorNight"
+      tools:ignore="ContentDescription"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+      android:id="@+id/nsv_tabela"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:scrollbars="none"
+      android:layout_marginTop="@dimen/margin_big"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/iv_info">
+
+      <HorizontalScrollView
+        android:id="@+id/hsv_tabela"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rv_tabela"
+          android:scrollbars="none"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:padding="@dimen/padding_normal"
+          app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+          app:spanCount="18"
+          tools:itemCount="18"
+          tools:listitem="@layout/item_element"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintBottom_toBottomOf="parent" />
+      </HorizontalScrollView>
+    </androidx.core.widget.NestedScrollView>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

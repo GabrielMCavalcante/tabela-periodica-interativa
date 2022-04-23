@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <data>
+    <variable
+      name="chemicalElementDetails"
+      type="com.kotlinstudies.tabelaperiodicainterativa.models.ChemicalElementDetails" />
+  </data>
+
+  <GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="4">
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_atomic_mass"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_atomic_mass"
+        android:text="@{@string/unit_atomic_unit(String.valueOf(chemicalElementDetails.atomicMass))}"
+        tools:text="1.00794(4) u"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_electronegativity"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_electronegativity"
+        android:text="@{chemicalElementDetails.electronegativity}"
+        tools:text="2.2"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_atomic_radius"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_atomic_radius"
+        android:text="@{@string/unit_picometer(String.valueOf(chemicalElementDetails.atomicRadius))}"
+        tools:text="37 pm"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_ionization_energy"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_ionization_energy"
+        android:text="@{@string/unit_kilojoules_per_mol(String.valueOf(chemicalElementDetails.ionizationEnergy))}"
+        tools:text="1312 kJ/mol"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_electron_affinity"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_electron_affinity"
+        android:text="@{@string/unit_kilojoules_per_mol(String.valueOf(chemicalElementDetails.electronAffinity))}"
+        tools:text="72.8 kJ/mol"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_oxidation_states"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_oxidation_states"
+        android:text="@{chemicalElementDetails.oxidationStates}"
+        tools:text="-1, 1"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_density"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_density"
+        android:text="@{@string/unit_kilograms_per_meter_cubed(String.valueOf(chemicalElementDetails.density))}"
+        tools:text="0.0899 kg/m³"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_melting_point"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_melting_point"
+        android:text="@{@string/unit_kelvin(String.valueOf(chemicalElementDetails.meltingPoint))}"
+        tools:text="14.025 K"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:padding="@dimen/padding_normal">
+
+      <TextView
+        android:text="@string/label_boiling_point"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+      <TextView
+        android:id="@+id/tv_boiling_point"
+        android:text="@{@string/unit_kelvin(String.valueOf(chemicalElementDetails.boilingPoint))}"
+        tools:text="20.268 K"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+  </GridLayout>
+</layout>

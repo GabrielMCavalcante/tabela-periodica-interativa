@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline3"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintGuide_percent="0.5" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_metal_alcalino"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@color/metal_alcalino"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+    android:id="@+id/tv_metal_alcalino"
+    android:text="@string/alkali_metals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="@+id/siv_metal_alcalino"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_metal_alcalino"
+    android:textSize="12sp"
+    app:layout_constraintStart_toEndOf="@+id/siv_metal_alcalino"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+    android:layout_marginEnd="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_metal_pos_transicao"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/metal_pos_transicao"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <TextView
+    android:id="@+id/tv_metal_pos_transicao"
+    android:text="@string/post_transition_metals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="@+id/siv_metal_pos_transicao"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_metal_pos_transicao"
+    app:layout_constraintStart_toEndOf="@+id/siv_metal_pos_transicao"
+    android:layout_marginStart="@dimen/margin_small"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_nao_metal_diatomico"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/nao_metal_diatomico"
+    app:layout_constraintTop_toBottomOf="@+id/siv_metal_alcalino"
+    android:layout_marginTop="@dimen/margin_big"
+    app:layout_constraintStart_toStartOf="@+id/siv_metal_alcalino" />
+
+  <TextView
+    android:id="@+id/tv_nao_metal_diatomico"
+    android:text="@string/diatomic_nonmetals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_nao_metal_diatomico"
+    app:layout_constraintTop_toTopOf="@+id/siv_nao_metal_diatomico"
+    app:layout_constraintStart_toEndOf="@+id/siv_nao_metal_diatomico"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+    android:layout_marginEnd="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_metal_alcalinoterroso"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/metal_alcalinoterroso"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_nao_metal_diatomico"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_nao_metal_diatomico" />
+
+  <TextView
+    android:id="@+id/tv_metal_alcalinoterroso"
+    android:text="@string/alkaline_earth_metals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/siv_metal_alcalinoterroso"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_metal_alcalinoterroso"
+    app:layout_constraintStart_toEndOf="@+id/siv_metal_alcalinoterroso"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_gas_nobre"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/gas_nobre"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_semimetal"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_semimetal" />
+
+  <TextView
+    android:id="@+id/tv_gas_nobre"
+    android:text="@string/noble_gases"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/siv_gas_nobre"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_gas_nobre"
+    app:layout_constraintStart_toEndOf="@+id/siv_gas_nobre"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_nao_metal_poliatomico"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/nao_metal_poliatomico"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_metal_de_transicao"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_metal_de_transicao" />
+
+  <TextView
+    android:id="@+id/tv_nao_metal_poliatomico"
+    android:text="@string/polyatomic_nonmetals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/siv_nao_metal_poliatomico"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_nao_metal_poliatomico"
+    app:layout_constraintStart_toEndOf="@+id/siv_nao_metal_poliatomico"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_semimetal"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/semimetal"
+    app:layout_constraintStart_toStartOf="@+id/siv_metal_alcalino"
+    app:layout_constraintTop_toBottomOf="@+id/siv_nao_metal_diatomico"
+    android:layout_marginTop="@dimen/margin_big" />
+
+  <TextView
+    android:id="@+id/tv_semimetal"
+    android:text="@string/semimetals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+    android:layout_marginEnd="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_semimetal"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_semimetal"
+    app:layout_constraintStart_toEndOf="@+id/siv_semimetal"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_metal_de_transicao"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/metal_de_transicao"
+    app:layout_constraintStart_toStartOf="@+id/siv_semimetal"
+    app:layout_constraintTop_toBottomOf="@+id/siv_semimetal"
+    android:layout_marginTop="@dimen/margin_big" />
+
+  <TextView
+    android:id="@+id/tv_metal_de_transicao"
+    android:text="@string/transition_metals"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+    android:layout_marginEnd="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_metal_de_transicao"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_metal_de_transicao"
+    app:layout_constraintStart_toEndOf="@+id/siv_metal_de_transicao"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_prop_quimicas_desconhecidas"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/desconhecido"
+    app:layout_constraintStart_toStartOf="@+id/siv_metal_de_transicao"
+    app:layout_constraintTop_toBottomOf="@+id/siv_metal_de_transicao"
+    android:layout_marginTop="@dimen/margin_big" />
+
+  <TextView
+    android:id="@+id/tv_prop_quimicas_desconhecidas"
+    android:text="@string/unknown_chemical_properties"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+    android:layout_marginEnd="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_prop_quimicas_desconhecidas"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_prop_quimicas_desconhecidas"
+    app:layout_constraintStart_toEndOf="@+id/siv_prop_quimicas_desconhecidas"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_lantanideos"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/lantanideo"
+    app:layout_constraintStart_toStartOf="@+id/siv_prop_quimicas_desconhecidas"
+    app:layout_constraintTop_toBottomOf="@+id/siv_prop_quimicas_desconhecidas"
+    android:layout_marginTop="@dimen/margin_large" />
+
+  <TextView
+    android:id="@+id/tv_lantanideos"
+    android:text="@string/lanthanides"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toStartOf="@+id/guideline3"
+    android:layout_marginEnd="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_lantanideos"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_lantanideos"
+    app:layout_constraintStart_toEndOf="@+id/siv_lantanideos"
+    android:layout_marginStart="@dimen/margin_small" />
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/siv_actinideos"
+    android:layout_width="@dimen/leg_color_size"
+    android:layout_height="@dimen/leg_color_size"
+    app:shapeAppearanceOverlay="@style/RoundedImageView"
+    android:background="@color/actinideo"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@+id/siv_lantanideos"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_lantanideos" />
+
+  <TextView
+    android:id="@+id/tv_actinideos"
+    android:text="@string/actinides"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/siv_actinideos"
+    app:layout_constraintBottom_toBottomOf="@+id/siv_actinideos"
+    app:layout_constraintStart_toEndOf="@+id/siv_actinideos"
+    android:layout_marginStart="@dimen/margin_small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

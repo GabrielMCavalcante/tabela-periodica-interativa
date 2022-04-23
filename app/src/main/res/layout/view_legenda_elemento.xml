@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <View
+    android:layout_width="@dimen/element_item_box_dimen"
+    android:layout_height="@dimen/element_item_box_dimen"
+    android:id="@+id/v_background"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/shape_border_nao_metal_diatomico" />
+
+  <TextView
+    android:id="@+id/tv_inicial2"
+    android:textSize="32sp"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="@+id/v_background"
+    app:layout_constraintEnd_toEndOf="@+id/v_background"
+    app:layout_constraintStart_toStartOf="parent"
+    android:text="H"
+    tools:ignore="HardcodedText" />
+
+  <TextView
+    android:id="@+id/tv_nome2"
+    android:textSize="14sp"
+    android:text="@string/hydrogen"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="@+id/v_background"
+    app:layout_constraintEnd_toEndOf="@+id/v_background"
+    app:layout_constraintTop_toBottomOf="@+id/tv_inicial2" />
+
+  <TextView
+    android:id="@+id/tv_num_atomico2"
+    android:text="1"
+    android:textSize="14sp"
+    android:paddingStart="@dimen/padding_small"
+    android:paddingEnd="@dimen/padding_small"
+    android:gravity="bottom"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toBottomOf="@+id/v_background"
+    android:layout_marginStart="@dimen/margin_small"
+    android:layout_marginBottom="@dimen/margin_small" />
+
+  <androidx.constraintlayout.widget.Guideline
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/guideline2"
+    app:layout_constraintGuide_percent="0.5" />
+
+  <include
+    layout="@layout/view_arrow_right"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/v_line_symbol"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@id/tv_inicial2"
+    app:layout_constraintBottom_toBottomOf="@id/tv_inicial2"
+    app:layout_constraintStart_toEndOf="@id/tv_inicial2"
+    app:layout_constraintEnd_toStartOf="@id/guideline2" />
+
+  <include
+    layout="@layout/view_arrow_right"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/v_line_name"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@id/tv_nome2"
+    app:layout_constraintBottom_toBottomOf="@id/tv_nome2"
+    app:layout_constraintStart_toEndOf="@id/tv_nome2"
+    app:layout_constraintEnd_toStartOf="@id/guideline2" />
+
+  <include
+    layout="@layout/view_arrow_right"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/v_line_atomic_number"
+    android:layout_marginStart="@dimen/margin_small"
+    app:layout_constraintTop_toTopOf="@id/tv_num_atomico2"
+    app:layout_constraintBottom_toBottomOf="@id/tv_num_atomico2"
+    app:layout_constraintStart_toEndOf="@id/tv_num_atomico2"
+    app:layout_constraintEnd_toStartOf="@id/guideline2" />
+
+  <TextView
+    android:text="@string/symbol"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_leg_symbol"
+    app:layout_constraintStart_toStartOf="@+id/guideline2"
+    app:layout_constraintTop_toTopOf="@+id/v_line_symbol"
+    app:layout_constraintBottom_toBottomOf="@+id/v_line_symbol"
+    android:layout_marginStart="@dimen/margin_normal" />
+
+  <TextView
+    android:text="@string/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_leg_name"
+    app:layout_constraintStart_toStartOf="@+id/guideline2"
+    app:layout_constraintTop_toTopOf="@+id/v_line_name"
+    app:layout_constraintBottom_toBottomOf="@+id/v_line_name"
+    android:layout_marginStart="@dimen/margin_normal" />
+
+  <TextView
+    android:text="@string/atomic_number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_leg_atomic_number"
+    app:layout_constraintStart_toStartOf="@+id/guideline2"
+    app:layout_constraintTop_toTopOf="@+id/v_line_atomic_number"
+    app:layout_constraintBottom_toBottomOf="@+id/v_line_atomic_number"
+    android:layout_marginStart="@dimen/margin_normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

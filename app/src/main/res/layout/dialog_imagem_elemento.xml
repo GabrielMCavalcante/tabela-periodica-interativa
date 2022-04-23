@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <data>
+    <variable
+      name="imagemElementoDialog"
+      type="com.kotlinstudies.tabelaperiodicainterativa.ui.dialogs.ImagemElementoDialog" />
+  </data>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_normal"
+    android:background="@color/mainBackgroundNight">
+
+    <ImageView
+      android:id="@+id/iv_elemento"
+      tools:src="@drawable/neonio"
+      android:src="@{imagemElementoDialog.elementImageDrawable}"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/dialog_element_image_height"
+      android:scaleType="fitCenter"
+      tools:ignore="ContentDescription" />
+
+    <Button
+      android:id="@+id/btn_ok"
+      android:onClick="@{() -> imagemElementoDialog.dismiss()}"
+      android:text="@android:string/ok"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/margin_large"
+      android:background="@drawable/ripple_background_transparent" />
+  </LinearLayout>
+</layout>

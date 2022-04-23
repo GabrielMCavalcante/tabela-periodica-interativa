@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Sizes -->
+  <dimen name="leg_color_size">20dp</dimen>
+  <dimen name="progress_bar">70dp</dimen>
+
+  <!-- Heights -->
+  <dimen name="div_horizontal_height">1dp</dimen>
+
+  <!-- Element Item Box -->
+  <dimen name="element_item_box_dimen">100dp</dimen>
+  <dimen name="element_item_box_dimen_small">25dp</dimen>
+
+  <!-- Radius -->
+  <dimen name="button_corner_radius">10dp</dimen>
+  <dimen name="card_radius_small">30dp</dimen>
+  <dimen name="card_radius_big">50dp</dimen>
+
+  <!-- Margins -->
+  <dimen name="margin_small">4dp</dimen>
+  <dimen name="margin_normal">8dp</dimen>
+  <dimen name="margin_big">16dp</dimen>
+  <dimen name="margin_large">24dp</dimen>
+
+  <!-- Paddings -->
+  <dimen name="padding_small">4dp</dimen>
+  <dimen name="padding_normal">8dp</dimen>
+  <dimen name="padding_big">16dp</dimen>
+  <dimen name="padding_large">24dp</dimen>
+
+  <!-- Elevations -->
+  <dimen name="card_max_elevation">0dp</dimen>
+
+  <!-- Text sizes -->
+  <dimen name="text_size_large">18sp</dimen>
+  <dimen name="text_size_big">16sp</dimen>
+  <dimen name="text_size_normal">14sp</dimen>
+  <dimen name="text_size_small">12sp</dimen>
+  <dimen name="dialog_element_image_height">400dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="transparent_color">#00FFFFFF</color>
+  <color name="greyed_transparent_color">#77222222</color>
+
+  <color name="mainBackgroundNight">#000a12</color>
+
+  <color name="primaryColorNight">#263238</color>
+  <color name="primaryLightColorNight">#4f5b62</color>
+  <color name="primaryDarkColorNight">#000a12</color>
+  <color name="secondaryColorNight">#616161</color>
+  <color name="secondaryLightColorNight">#757575</color>
+  <color name="secondaryDarkColorNight">#373737</color>
+  <color name="primaryTextColorNight">#ffffff</color>
+  <color name="secondaryTextColorNight">#ffffff</color>
+
+  <!-- Elements colors -->
+  <color name="metal_alcalino">#f21b1b</color>
+  <color name="metal_pos_transicao">#ae1bf2</color>
+  <color name="nao_metal_diatomico">#f27c1b</color>
+  <color name="lantanideo">#1b51f2</color>
+  <color name="metal_alcalinoterroso">#eba53d</color>
+  <color name="semimetal">#ba183e</color>
+  <color name="gas_nobre">#ed249d</color>
+  <color name="actinideo">#21addb</color>
+  <color name="metal_de_transicao">#57c91e</color>
+  <color name="nao_metal_poliatomico">#1b9e0d</color>
+  <color name="desconhecido">#8b8f8b</color>
+</resources>

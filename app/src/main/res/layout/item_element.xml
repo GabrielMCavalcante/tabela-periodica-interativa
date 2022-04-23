@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small">
+
+    <View
+      android:layout_width="@dimen/element_item_box_dimen"
+      android:layout_height="@dimen/element_item_box_dimen"
+      android:id="@+id/v_background"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:background="@drawable/shape_border_nao_metal_diatomico"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+      android:id="@+id/tv_inicial"
+      android:textSize="32sp"
+      android:gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="@+id/v_background"
+      app:layout_constraintEnd_toEndOf="@+id/v_background"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:ignore="HardcodedText"
+      tools:text="H" />
+
+    <TextView
+      android:id="@+id/tv_nome"
+      android:textSize="14sp"
+      android:gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="@+id/v_background"
+      app:layout_constraintEnd_toEndOf="@+id/v_background"
+      app:layout_constraintTop_toBottomOf="@+id/tv_inicial"
+      tools:text="@string/hydrogen" />
+
+    <TextView
+      android:id="@+id/tv_num_atomico"
+      android:textSize="14sp"
+      android:paddingStart="@dimen/padding_small"
+      android:paddingEnd="@dimen/padding_small"
+      android:gravity="bottom"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      tools:ignore="HardcodedText"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintBottom_toBottomOf="@+id/v_background"
+      android:layout_marginStart="@dimen/margin_small"
+      android:layout_marginBottom="@dimen/margin_small"
+      tools:text="1" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ic_long_arrow_right.xml" value="0.1255" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/pb_loading_background.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_actinideo.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_background_transparent.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_desconhecido.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_gas_nobre.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_lantanideo.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_metal_alcalino.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_metal_alcalinoterroso.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_metal_de_transicao.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_metal_pos_transicao.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_nao_metal_diatomico.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_nao_metal_poliatomico.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/ripple_semimetal.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_arrow.xml" value="0.1255" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_arrow_right.xml" value="0.1255" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_actinideo.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_desconhecido.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_gas_nobre.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_lantanideo.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_lantanideos.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_metal_alcalino.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_metal_alcalinoterroso.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_metal_de_transicao.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_metal_pos_transicao.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_nao_metal_diatomico.xml" value="0.194" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_nao_metal_poliatomico.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_orange.xml" value="0.187" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/drawable/shape_border_semimetal.xml" value="0.1685" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/font/roboto.xml" value="0.21666666666666667" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout-land/activity_main.xml" value="0.18" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout-land/dialog_ajuda.xml" value="0.25" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout-land/view_legenda_cores.xml" value="0.33" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/activity_details.xml" value="0.25" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/bottom_sheet_dialog_test.xml" value="0.18645833333333334" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/dialog_ajuda.xml" value="0.22" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/dialog_imagem_elemento.xml" value="0.22" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/dialog_in_progress.xml" value="0.25" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/div_horizontal.xml" value="0.15013901760889714" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/fragment_1.xml" value="0.2" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/fragment_2.xml" value="0.18645833333333334" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/fragment_details.xml" value="0.18645833333333334" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/item_element.xml" value="0.75" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/item_half_space.xml" value="0.5" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/item_space_element.xml" value="0.5" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/recycler_child.xml" value="0.15013901760889714" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/toolbar.xml" value="0.18645833333333334" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/view_arrow_right.xml" value="0.32612723903644225" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/view_element_details.xml" value="0.33" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/view_legenda_cores.xml" value="0.33" />
+        <entry key="..\:/Desktop/Android_Studio_Projects/TabelaPeriodicaInterativa/app/src/main/res/layout/view_legenda_elemento.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
